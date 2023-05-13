@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <QueryClientProvider client={queryClient}>
+        <QueryClientProvider client={queryClient}>
           <header>
             <Link to="/">Adopt Me!</Link>
           </header>
